@@ -212,7 +212,7 @@ def index() -> rx.Component:
             rx.card(
                 rx.card(
                     rx.html(
-                        '<iframe src="https://drive.google.com/file/d/14sdiZSuTIaHdRh2cinzlSoYBOrqCsfO1/preview" width="814px" height="407px" allow="autoplay"></iframe>'
+                        '<iframe src="https://drive.google.com/file/d/14sdiZSuTIaHdRh2cinzlSoYBOrqCsfO1/preview" width="100%" height="100%" allow="autoplay"></iframe>'
                     ),
                     width="100%",
                     padding="5px",
@@ -228,7 +228,7 @@ def index() -> rx.Component:
             rx.card(
                 rx.card(
                     rx.html(
-                        '<iframe src="https://drive.google.com/file/d/14vgc1H6VrwF-xwp-FtUxPK0GJ74tYKKz/preview" width="814px" height="407px" allow="autoplay"></iframe>'
+                        '<iframe src="https://drive.google.com/file/d/14vgc1H6VrwF-xwp-FtUxPK0GJ74tYKKz/preview" width="100%" height="100%" allow="autoplay"></iframe>'
                     ),
                     width="100%",
                     padding="5px",
