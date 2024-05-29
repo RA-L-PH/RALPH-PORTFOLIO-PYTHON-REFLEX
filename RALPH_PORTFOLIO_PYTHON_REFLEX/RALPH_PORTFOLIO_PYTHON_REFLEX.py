@@ -212,7 +212,7 @@ def index() -> rx.Component:
             rx.card(
                 rx.card(
                     rx.video(
-                        url="https://drive.google.com/file/d/14sdiZSuTIaHdRh2cinzlSoYBOrqCsfO1/view?usp=sharing",
+                        url="https://drive.google.com/file/d/14sdiZSuTIaHdRh2cinzlSoYBOrqCsfO1/preview",
                         width="100%",
                         height="auto",
                     ),
