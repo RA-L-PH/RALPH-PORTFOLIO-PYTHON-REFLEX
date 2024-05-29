@@ -263,7 +263,7 @@ def index() -> rx.Component:
                             rx.icon(tag="instagram"),
                             color_scheme="pink",
                         ),
-                        href="https://www.instagram.com/ralph.carvalho.09/",
+                        href="https://www.instagram.com/ralph.carvalho.09?igsh=MWQzbW9mOGt6OGM2dA==",
                     ),
                     wrap="wrap",
                     justify="center",
