@@ -211,10 +211,8 @@ def index() -> rx.Component:
         rx.container(            
             rx.card(
                 rx.card(
-                    rx.video(
-                        url="https://drive.google.com/file/d/14sdiZSuTIaHdRh2cinzlSoYBOrqCsfO1/preview",
-                        width="100%",
-                        height="auto",
+                    rx.html(
+                        '<iframe src="https://drive.google.com/file/d/14sdiZSuTIaHdRh2cinzlSoYBOrqCsfO1/preview" width="814px" height="407px" allow="autoplay"></iframe>'
                     ),
                     width="100%",
                     padding="5px",
@@ -229,10 +227,8 @@ def index() -> rx.Component:
             ),
             rx.card(
                 rx.card(
-                    rx.video(
-                        url="https://drive.google.com/file/d/14vgc1H6VrwF-xwp-FtUxPK0GJ74tYKKz/preview",
-                        width="100%",
-                        height="auto",
+                    rx.html(
+                        '<iframe src="https://drive.google.com/file/d/14vgc1H6VrwF-xwp-FtUxPK0GJ74tYKKz/preview" width="814px" height="407px" allow="autoplay"></iframe>'
                     ),
                     width="100%",
                     padding="5px",
