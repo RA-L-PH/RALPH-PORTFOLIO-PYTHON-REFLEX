@@ -231,6 +231,7 @@ def index() -> rx.Component:
                         '<iframe src="https://drive.google.com/file/d/14vgc1H6VrwF-xwp-FtUxPK0GJ74tYKKz/preview" width="100%" height="100%" allow="autoplay"></iframe>'
                     ),
                     width="100%",
+                    height="60%",
                     padding="5px",
                 ),
                 rx.heading("IEEE WIE SFIT"),
