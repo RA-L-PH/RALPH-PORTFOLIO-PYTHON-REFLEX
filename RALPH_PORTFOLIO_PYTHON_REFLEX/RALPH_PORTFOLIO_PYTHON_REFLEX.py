@@ -196,6 +196,7 @@ def index() -> rx.Component:
             ),
             height="auto",
             width="100%",
+            padding="5%",
         ),
         rx.divider(),
         rx.center(
