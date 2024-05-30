@@ -318,7 +318,6 @@ def index() -> rx.Component:
                 margin="15px",        
             ),
         ),
-        rx.text("This Portfolio was solely made using Python Reflex",size="5",align="center"),
     )
 
 app = rx.App()
