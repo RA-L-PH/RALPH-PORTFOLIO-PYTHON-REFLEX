@@ -323,8 +323,7 @@ def index() -> rx.Component:
                     ),
                     rx.link(
                         rx.button(
-                            rx.icon(tag="discord"),
-                            color_scheme="blue",
+                            rx.avatar(src="https://static-00.iconduck.com/assets.00/discord-icon-2048x2048-o5mluhz2.png",),
                         ),
                         href="https://discord.com/invite/KvT4MvGp",
                     ),
