@@ -307,6 +307,27 @@ def index() -> rx.Component:
                         ),
                         href="https://www.instagram.com/ralph.carvalho.09?igsh=MWQzbW9mOGt6OGM2dA==",
                     ),
+                    rx.link(
+                        rx.button(
+                            rx.icon(tag="facebook"),
+                            color_scheme="sky",
+                        ),
+                        href="https://www.facebook.com/profile.php?id=61560279843571",
+                    ),
+                    rx.link(
+                        rx.button(
+                            rx.icon(tag="x"),
+                            color_scheme="gray",
+                        ),
+                        href="https://x.com/Ralphcarvalho04",
+                    ),
+                    rx.link(
+                        rx.button(
+                            rx.icon(tag="discord"),
+                            color_scheme="blue",
+                        ),
+                        href="https://discord.com/invite/KvT4MvGp",
+                    ),
                     wrap="wrap",
                     justify="center",
                     align="center",
