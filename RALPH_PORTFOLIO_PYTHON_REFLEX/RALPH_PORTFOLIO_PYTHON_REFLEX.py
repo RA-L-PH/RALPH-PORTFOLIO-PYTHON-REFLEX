@@ -322,15 +322,14 @@ def index() -> rx.Component:
                         href="https://x.com/Ralphcarvalho04",
                     ),
                     rx.link(
-                        rx.button(
-                            rx.avatar(src="https://static-00.iconduck.com/assets.00/discord-icon-2048x2048-o5mluhz2.png",),
-                        ),
+                        rx.avatar(src="https://static-00.iconduck.com/assets.00/discord-icon-2048x2048-o5mluhz2.png",),
                         href="https://discord.com/invite/KvT4MvGp",
                     ),
                     wrap="wrap",
                     justify="center",
                     align="center",
                     direction="row",
+                    spacing="2",
                 ),       
                 width="100%",
                 border_radius="5px",
