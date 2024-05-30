@@ -62,16 +62,9 @@ def index() -> rx.Component:
         ),
         rx.divider(),
         rx.container(
-            rx.flex(
-                rx.box(
-                    rx.text("""Hi, I’m Ralph Carvalho, a coder and Arduino enthusiast. I love traveling and exploring new cultures. I’m known for my innovative problem-solving, teamwork, and leadership. Whether I’m coding, leading, or traveling, I’m always ready for a new adventure.""", size="5",),
-                    background_color="white",
-                    radius="20px",
-                    width="50%",
-                    padding="25px",
-                ),
-                rx.box(
-                    rx.center(
+            rx.center(
+                rx.flex(
+                    rx.box(
                         rx.image(
                             src="https://issb.sfit.ac.in/ppl/Copy%20of%20Ralph_Carvalho__Webmaster.jpg",
                             width="100%",
@@ -80,16 +73,23 @@ def index() -> rx.Component:
                             border_radius="50%",
                             border="5px solid black",
                         ),
+                        align="center",
+                        height="50%",
+                        width="50%",
+                        background_color="white",
                     ),
-                    background_color="white",
-                    radius="20px",
-                    width="50%",
-                    padding="25px",
+                    rx.box(
+                        rx.text("""Hi, I’m Ralph Carvalho, a coder and Arduino enthusiast. I love traveling and exploring new cultures. I’m known for my innovative problem-solving, teamwork, and leadership. Whether I’m coding, leading, or traveling, I’m always ready for a new adventure.""", size="5",),
+                        background_color="white",
+                        radius="20px",
+                        width="100%",
+                        padding="25px",
+                    ),
+                    direction="column",
+                    justify="center",
+                    align="center",
                 ),
-                justify="between",
-                spacing="2",
-                align="center",
-            ),
+            ),                   
         ),
         rx.divider(),
         rx.center(
@@ -209,42 +209,75 @@ def index() -> rx.Component:
             ),
         ),
         rx.container(            
-            rx.card(
-                rx.card(
+            rx.card(                                 
+                rx.aspect_ratio(
                     rx.html(
-                        '<iframe src="https://drive.google.com/file/d/14sdiZSuTIaHdRh2cinzlSoYBOrqCsfO1/preview" width="100%" height="100%" allow="autoplay"></iframe>'
+                        '<iframe src="https://drive.google.com/file/d/14vgc1H6VrwF-xwp-FtUxPK0GJ74tYKKz/preview" width="100%" height="100%" allow="autoplay" allowfullscreen></iframe>',
+                        height="100%",
+                        width="100%",  
+                        padding="2px",
                     ),
-                    width="100%",
-                    padding="5px",
+                    ratio= 16 / 9,
+                ),
+                rx.heading("IEEE WIE SFIT"),
+                rx.link("View Website",
+                        href="issb.sfit.ac.in/wie/index.html",    
+                ),
+                rx.divider(),
+                rx.text("Technologies:",width="100%", height="auto"),
+                rx.flex(
+                    rx.badge("Github Pages", color_scheme="indigo",size="3"),
+                    rx.badge("Bootstrap", color_scheme="cyan",size="3"),
+                    rx.badge("Vue.js", color_scheme="orange",size="3"),
+                    rx.badge("JSS", color_scheme="crimson",size="3"),
+                    spacing="2",    
+                ),
+                margin="5px",
+            ),
+            rx.card(                                 
+                rx.aspect_ratio(
+                    rx.html(
+                        '<iframe src="https://drive.google.com/file/d/14sdiZSuTIaHdRh2cinzlSoYBOrqCsfO1/preview" width="100%" height="100%" allow="autoplay" allowfullscreen></iframe>',
+                        height="100%",
+                        width="100%",  
+                        padding="2px",
+                    ),
+                    ratio= 16 / 9,
                 ),
                 rx.heading("Euphoria Sportz"),
                 rx.link("View Website",
                         href="https://euphoriasportz.github.io/euphoriasportz/",    
                 ),
-                width="100%",
-                height="auto",
-                margin="10px",                                    
+                rx.divider(),
+                rx.text("Technologies:",width="100%", height="auto"),
+                rx.flex(
+                    rx.badge("Github Pages", color_scheme="indigo",size="3"),
+                    rx.badge("Bootstrap", color_scheme="cyan",size="3"),
+                    rx.badge("Vue.js", color_scheme="orange",size="3"),
+                    rx.badge("JSS", color_scheme="crimson",size="3"),
+                    spacing="2",    
+                ),
+                margin="5px",
             ),
-            rx.card(
-                rx.card(
-                    rx.html(
-                        '<iframe src="https://drive.google.com/file/d/14vgc1H6VrwF-xwp-FtUxPK0GJ74tYKKz/preview" width="100%" height="100%" allow="autoplay"></iframe>'
-                    ),
-                    width="100%",
-                    height="60%",
-                    padding="5px",
+            rx.card(                                 
+                rx.heading("My Portfolio: current website"),
+                rx.link("View Source code",
+                        href="https://github.com/RA-L-PH/RALPH-PORTFOLIO-PYTHON-REFLEX",    
                 ),
-                rx.heading("IEEE WIE SFIT"),
-                rx.link("View Website",
-                        href="https://issb.sfit.ac.in/wie/index.html",    
+                rx.divider(),
+                rx.text("Technologies:",width="100%", height="auto"),
+                rx.flex(
+                    rx.badge("Github Pages", color_scheme="indigo",size="3"),
+                    rx.badge("Bootstrap", color_scheme="cyan",size="3"),
+                    rx.badge("Vue.js", color_scheme="orange",size="3"),
+                    rx.badge("JSS", color_scheme="crimson",size="3"),
+                    spacing="2",    
                 ),
-                width="100%",
-                height="auto",
-                margin="10px",                                    
-                
+                margin="5px",
             ),
             width="100%",
             height="auto",
+            padding="10px",
         ),
         rx.divider(),
         rx.center(
