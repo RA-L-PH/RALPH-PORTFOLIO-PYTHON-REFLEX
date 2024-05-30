@@ -20,7 +20,7 @@ def index() -> rx.Component:
                     rx.text(
                         "Ralph Carvalho",
                         align="left",
-                        size="8",
+                        size="7",
                         ),
                     height="100%",
                     width="50%",
